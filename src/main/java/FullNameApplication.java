@@ -51,7 +51,6 @@ public class FullNameApplication {
     //Method to check if middle is necesary
     public static String addMiddleInitial(String middleInitial, String fullName) {
         if(!middleInitial.isBlank()){
-
             fullName += " "  + middleInitial.charAt(0) + ".";
             return fullName;
         }
@@ -63,7 +62,6 @@ public class FullNameApplication {
         if (!suffix.isBlank()) {
             fullName += ", " + suffix.trim();
         }
-
         return fullName;
     }
 
